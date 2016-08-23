@@ -1,0 +1,455 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass amsart
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Because 
+\begin_inset Formula $\overleftrightarrow{EB}$
+\end_inset
+
+ is 
+\begin_inset Formula $\Vert$
+\end_inset
+
+ to line 
+\begin_inset Formula $\overleftrightarrow{CF}$
+\end_inset
+
+, 
+\begin_inset Formula $\angle BEA$
+\end_inset
+
+ is an exterior transversal to 
+\begin_inset Formula $\angle FGA$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+m\left(\angle BEA\right)=m\left(\angle FGA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now note what happens when 
+\begin_inset Formula $\overleftrightarrow{EA}$
+\end_inset
+
+ becomes a diameter.
+ That is, when 
+\begin_inset Formula $\overleftrightarrow{EA}$
+\end_inset
+
+ goes thru point 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Point 
+\begin_inset Formula $G$
+\end_inset
+
+ becomes identical with point 
+\begin_inset Formula $C$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+m\left(\angle BEA\right)=m\left(\angle FGA\right)=m\left(\angle FCA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Segment 
+\begin_inset Formula $\overline{EC}=\overline{EG}$
+\end_inset
+
+ is now a radius, equal in length to segment 
+\begin_inset Formula $\overline{CB}$
+\end_inset
+
+, so 
+\begin_inset Formula $\triangle ECB$
+\end_inset
+
+ is an isosceles triangle, because
+\begin_inset Formula $m\left(\overline{EC}\right)=m\left(\overline{BC}\right)$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\[
+m\left(\angle BEC\right)=m\left(\angle EBC\right)=m\left(\angle BCF\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\angle BCA$
+\end_inset
+
+ is split by ray 
+\begin_inset Formula $\overrightarrow{CF}$
+\end_inset
+
+.
+ So
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=m\left(\angle BCF\right)+m\left(\angle FCA\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=m\left(\angle BEA\right)+m\left(\angle BEA\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\, m\left(\angle BEA\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula $\boxempty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+General Case
+\end_layout
+
+\begin_layout Standard
+The special case tells us:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\left(\angle ECA\right)=2\, m\left(\angle EDA\right)
+\]
+
+\end_inset
+
+The special case tells us:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\left(\angle BCE\right)=2\, m\left(\angle BDE\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Both sides.
+\end_layout
+
+\begin_layout Standard
+We have from the special case on both sides:
+\begin_inset Formula 
+\[
+m\left(\angle ECA\right)=2\, m\left(\angle EDA\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCE\right)=2\, m\left(\angle BDE\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The ray 
+\begin_inset Formula $\overrightarrow{DE}$
+\end_inset
+
+ splits 
+\begin_inset Formula $\angle BDA$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+m\left(\angle BDA\right)=m\left(\angle BDE\right)+m\left(\angle EDA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The ray 
+\begin_inset Formula $\overrightarrow{CE}$
+\end_inset
+
+ splits 
+\begin_inset Formula $\angle BCA$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=m\left(\angle BCE\right)+m\left(\angle ECA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\, m\left(\angle BDE\right)+2\, m\left(\angle EDA\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\,\left(m\left(\angle BDE\right)+m\left(\angle EDA\right)\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\, m\left(\angle BDA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lop sided case: 
+\end_layout
+
+\begin_layout Standard
+We have from the special case on both sides:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\left(\angle ACE\right)=2\, m\left(\angle ADE\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCE\right)=2\, m\left(\angle BDE\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The ray 
+\begin_inset Formula $\overrightarrow{DA}$
+\end_inset
+
+ splits the angle 
+\begin_inset Formula $\angle BDE$
+\end_inset
+
+.
+ So
+\begin_inset Formula 
+\[
+m\left(\angle BDA\right)+m\left(\angle ADE\right)=m\left(\angle BDE\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BDA\right)=m\left(\angle BDE\right)-m\left(\angle ADE\right)
+\]
+
+\end_inset
+
+The ray 
+\begin_inset Formula $\overrightarrow{CA}$
+\end_inset
+
+ splits the angle 
+\begin_inset Formula $\angle BCE$
+\end_inset
+
+.
+ So
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)+m\left(\angle ACE\right)=m\left(\angle BCE\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=m\left(\angle BCE\right)-m\left(\angle ACE\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As before, but using subtraction:
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=m\left(\angle BCE\right)-m\left(\angle ACE\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\, m\left(\angle BDE\right)-2\, m\left(\angle ADE\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\,\left(m\left(\angle BDE\right)-m\left(\angle ADE\right)\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+m\left(\angle BCA\right)=2\, m\left(\angle BDA\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

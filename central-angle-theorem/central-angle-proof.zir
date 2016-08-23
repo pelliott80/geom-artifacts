@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Windowdim w="1280" h="800"/>
+<Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
+<Objects>
+<Point name="C" n="0" color="2" showname="true" x="-0.10899182561307885" y="0.2179836512261577" shape="circle">Point</Point>
+<Point name="P1" n="3" color="2" x="3.2334241598546782" y="0.2179836512261577" shape="circle">Point</Point>
+<Point name="handle_B" n="5" color="2" showname="true" x="-3.785649409627611" y="-4.0399636693914625" shape="circle">Point</Point>
+<Point name="handle_A" n="6" color="2" showname="true" x="2.1289736603088105" y="-3.8946412352406905" shape="circle">Point</Point>
+<Point name="handle_E" n="23" color="2" showname="true" x="-3.7565849227974573" y="2.3106267029972747" shape="circle">Point</Point>
+<Text name="Text3" n="54" color="1" type="thick" showname="true" showvalue="true" x="4.337874659400544" y="2.5431425976385107">We have constructed line CF so that it
+is parellel to line EB and thru the 
+center C.</Text>
+<Circle name="c2" n="4" color="4" through="P1" midpoint="C" acute="true">Circle around C through P1</Circle>
+<Ray name="r4" n="9" color="3" hidden="true" from="C" to="handle_B">Ray from C pointing to handle_B</Ray>
+<Ray name="r5" n="12" color="3" hidden="true" from="C" to="handle_A">Ray from C pointing to handle_A</Ray>
+<Ray name="r6" n="26" color="3" hidden="true" from="C" to="handle_E">Ray from C pointing to handle_E</Ray>
+<Intersection name="A" n="13" color="2" showname="true" first="r5" second="c2" shape="circle" which="first">Intersection between r5 and c2</Intersection>
+<Intersection name="P3" n="14" color="2" first="r5" second="c2" shape="circle" which="second">Intersection between r5 and c2</Intersection>
+<Intersection name="B" n="15" color="2" showname="true" first="r4" second="c2" shape="circle" which="first">Intersection between r4 and c2</Intersection>
+<Intersection name="P4" n="16" color="2" first="r4" second="c2" shape="circle" which="second">Intersection between r4 and c2</Intersection>
+<Intersection name="E" n="27" color="2" showname="true" first="r6" second="c2" shape="circle" which="first">Intersection between r6 and c2</Intersection>
+<Intersection name="P5" n="28" color="2" first="r6" second="c2" shape="circle" which="second">Intersection between r6 and c2</Intersection>
+<Segment name="s6" n="19" color="1" type="thick" from="C" to="B">Line segment from C to B</Segment>
+<Segment name="s7" n="22" color="1" type="thick" from="C" to="A">Line segment from C to A</Segment>
+<Segment name="s8" n="31" color="5" type="thick" from="B" to="E">Line segment from B to E</Segment>
+<Segment name="s9" n="34" color="5" type="thick" from="A" to="E">Line segment from A to E</Segment>
+<Angle name="a5" n="37" color="1" showvalue="true" xcoffset="0.17380115198788704" ycoffset="-0.31903678665569674" unit="°" first="B" root="E" second="A" display="small" filled="true" acute="true">Angle B - E - A</Angle>
+<Angle name="a6" n="48" color="1" showvalue="true" xcoffset="0.06635145906855452" ycoffset="0.35719573842836244" unit="°" first="E" root="B" second="C" display="small" filled="true" acute="true">Angle E - B - C</Angle>
+<Parallel name="pl2" n="40" color="3" hidden="true" point="C" line="s8">Parallel line through C to s8</Parallel>
+<Intersection name="P2" n="41" color="2" first="pl2" second="c2" shape="circle" which="first">Intersection between pl2 and c2</Intersection>
+<Intersection name="F" n="42" color="2" showname="true" first="pl2" second="c2" shape="circle" which="second">Intersection between pl2 and c2</Intersection>
+<Segment name="s10" n="45" color="1" type="thick" from="C" to="F">Line segment from C to F</Segment>
+<Angle name="a7" n="51" color="1" showvalue="true" xcoffset="-0.090209485583081" ycoffset="-0.3519283455232685" unit="°" first="B" root="C" second="F" display="small" filled="true" acute="true">Angle B - C - F</Angle>
+<Intersection name="G" n="55" color="2" showname="true" first="s10" second="s9" shape="circle">Intersection between s10 and s9</Intersection>
+<Angle name="a1" n="58" color="1" showvalue="true" xcoffset="0.15065982816006124" ycoffset="-0.3305948091708187" unit="°" first="F" root="G" second="A" display="small" filled="true" acute="true">Angle F - G - A</Angle>
+<Text name="Text1" n="59" color="1" type="thick" showname="true" showvalue="true" x="3.4659400544959134" y="1.801998183469573">Because line $\overleftrightarrow{EB}$ is parellel to line $\overleftrightarrow{CF}$,
+$\angle BEA$ is an exterior transversal to $\angle FGA$.
+$\[ \angle BEA=\angle FGA \]$</Text>
+<Text name="Text2" n="60" color="1" type="thick" showname="true" showvalue="true" x="3.4368755676657585" y="0.9300635785649405">Because line $\overleftrightarrow{EB}$ is parellel to line $\overleftrightarrow{CF}$,
+$\angle EBC$ is an interior transversal to $\angle BCF$.
+$\[ \angle EBC=\angle BCF \]$</Text>
+</Objects>
+</Construction>
+</CaR>

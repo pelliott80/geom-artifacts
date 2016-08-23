@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Windowdim w="1280" h="800"/>
+<Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
+<Objects>
+<Point name="C" n="0" color="2" showname="true" x="-0.5013623978201638" y="0.11625794732061756" shape="circle">Point</Point>
+<Point name="P2" n="3" x="2.6521344232515887" y="0.5667574931880113" shape="circle">Point</Point>
+<Point name="handle_A" n="5" color="2" showname="true" x="1.4750227066303356" y="-4.185286103542235" shape="circle">Point</Point>
+<Point name="handle_B" n="11" color="2" showname="true" x="-2.0999091734786557" y="-3.8365122615803813" shape="circle">Point</Point>
+<Point name="handle_E" n="23" color="2" showname="true" x="-4.061762034514079" y="3.269754768392372" shape="circle">Point</Point>
+<Circle name="c1" n="4" color="4" through="P2" midpoint="C" acute="true">Circle around P1 through P2</Circle>
+<Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_A">Line through P1 and P3</Line>
+<Line name="l2" n="14" color="3" hidden="true" from="C" to="handle_B">Line through P1 and P6</Line>
+<Ray name="r1" n="26" color="3" hidden="true" from="C" to="handle_E">Ray from P1 pointing to P9</Ray>
+<Intersection name="A" n="9" color="2" showname="true" first="l1" second="c1" shape="circle" which="first">Intersection between l1 and c1</Intersection>
+<Intersection name="P5" n="10" color="2" first="l1" second="c1" shape="circle" which="second">Intersection between l1 and c1</Intersection>
+<Intersection name="B" n="15" color="2" showname="true" first="l2" second="c1" shape="circle" which="first">Intersection between l2 and c1</Intersection>
+<Intersection name="P8" n="16" color="2" first="l2" second="c1" shape="circle" which="second">Intersection between l2 and c1</Intersection>
+<Intersection name="E" n="27" color="2" showname="true" first="r1" second="c1" shape="circle" which="first">Intersection between r1 and c1</Intersection>
+<Intersection name="P11" n="28" color="2" first="r1" second="c1" shape="circle" which="second">Intersection between r1 and c1</Intersection>
+<Segment name="s1" n="19" color="1" type="thick" from="C" to="A">Line segment from P1 to P4</Segment>
+<Segment name="s2" n="22" color="1" type="thick" from="C" to="B">Line segment from P1 to P7</Segment>
+<Segment name="s3" n="31" color="5" type="thick" from="E" to="A">Line segment from P10 to P4</Segment>
+<Segment name="s4" n="34" color="5" type="thick" from="E" to="B">Line segment from P10 to P7</Segment>
+<Angle name="a1" n="37" color="1" showvalue="true" xcoffset="0.15149101534064488" ycoffset="-0.33021475427813596" unit="°" first="B" root="E" second="A" display="small" filled="true" acute="true">Angle P7 - P10 - P4</Angle>
+<Angle name="a2" n="40" color="1" showvalue="true" xcoffset="0.007490671292840224" ycoffset="-0.36322885556559487" unit="°" first="B" root="C" second="A" display="small" filled="true" acute="true">Angle P7 - P1 - P4</Angle>
+</Objects>
+</Construction>
+</CaR>

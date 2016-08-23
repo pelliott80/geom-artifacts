@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Windowdim w="1280" h="800"/>
+<Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
+<Objects>
+<Point name="C" n="0" color="2" showname="true" x="-0.5885558583106265" y="-0.014532243415077417" shape="circle">Point</Point>
+<Point name="P1" n="3" color="2" x="2.564940962761126" y="-0.1453224341507724" shape="circle">Point</Point>
+<Point name="handle_D" n="5" color="2" showname="true" x="-0.7920072661217077" y="4.228882833787465" shape="circle">Point</Point>
+<Point name="handle_B" n="17" color="2" showname="true" x="-3.320617620345141" y="-3.4005449591280654" shape="circle">Point</Point>
+<Point name="handle_A" n="18" color="2" showname="true" x="2.143505903723888" y="-3.7493188010899186" shape="circle">Point</Point>
+<Text name="Text1" n="47" color="1" type="thick" showname="true" showvalue="true" x="-7.418710263396912" y="3.662125340599455">The General Case Left Side</Text>
+<Text name="Text2" n="48" color="1" type="thick" showname="true" showvalue="true" x="-7.316984559491371" y="2.0781108083560396">The special case tells us:
+$\[ m\left(\angle BCE\right)=2\, m\left(\angle BDE\right) \]$</Text>
+<Circle name="c1" n="4" color="4" through="P1" midpoint="C" acute="true">Circle around C through P1</Circle>
+<Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_D">Line through C and handle_D</Line>
+<Ray name="r1" n="21" color="3" hidden="true" from="C" to="handle_B">Ray from C pointing to handle_B</Ray>
+<Ray name="r2" n="24" color="3" hidden="true" from="C" to="handle_A">Ray from C pointing to handle_A</Ray>
+<Intersection name="D" n="9" color="2" showname="true" first="l1" second="c1" shape="circle" which="first">Intersection between l1 and c1</Intersection>
+<Intersection name="E" n="10" color="2" showname="true" first="l1" second="c1" shape="circle" which="second">Intersection between l1 and c1</Intersection>
+<Intersection name="A" n="25" color="2" showname="true" first="r2" second="c1" shape="circle" which="first">Intersection between r2 and c1</Intersection>
+<Intersection name="P3" n="26" color="2" first="r2" second="c1" shape="circle" which="second">Intersection between r2 and c1</Intersection>
+<Intersection name="B" n="27" color="2" showname="true" first="r1" second="c1" shape="circle" which="first">Intersection between r1 and c1</Intersection>
+<Intersection name="P5" n="28" color="2" first="r1" second="c1" shape="circle" which="second">Intersection between r1 and c1</Intersection>
+<Line name="l2" n="13" color="3" hidden="true" from="D" to="E">Line through D and E</Line>
+<Segment name="s1" n="16" color="1" type="thick" from="D" to="E">Line segment from D to E</Segment>
+<Segment name="s2" n="31" color="1" type="thick" from="C" to="B">Line segment from C to B</Segment>
+<Segment name="s3" n="34" color="1" type="thick" from="C" to="A">Line segment from C to A</Segment>
+<Segment name="s4" n="37" color="5" type="thick" from="D" to="B">Line segment from D to B</Segment>
+<Segment name="s5" n="40" color="5" type="thick" from="D" to="A">Line segment from D to A</Segment>
+<Angle name="a1" n="43" color="1" showvalue="true" xcoffset="-0.11192631067157463" ycoffset="-0.345635375289277" unit="°" first="B" root="C" second="E" display="small" filled="true" acute="true">Angle B - C - E</Angle>
+<Angle name="a2" n="46" color="1" showvalue="true" xcoffset="-0.0678824804877413" ycoffset="-0.35690794403422943" unit="°" first="B" root="D" second="C" display="small" filled="true" acute="true">Angle B - D - C</Angle>
+</Objects>
+</Construction>
+</CaR>

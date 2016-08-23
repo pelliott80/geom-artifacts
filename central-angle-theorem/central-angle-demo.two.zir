@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="0.0" y="0.0" w="8.0"/>
+<Windowdim w="1280" h="800"/>
+<Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
+<Objects>
+<Point name="C" n="0" color="2" showname="true" x="-0.6612170753860136" y="0.05812897366030878" shape="circle">Point</Point>
+<Point name="P2" n="3" x="2.492279745685739" y="0.5086285195277025" shape="circle">Point</Point>
+<Point name="handle_A" n="5" color="2" showname="true" x="0.8356039963669399" y="-3.8510445049954587" shape="circle">Point</Point>
+<Point name="handle_B" n="11" color="2" showname="true" x="-2.0999091734786557" y="-3.8365122615803813" shape="circle">Point</Point>
+<Point name="handle_E" n="23" color="2" showname="true" x="-5.209809264305177" y="1.6421435059037233" shape="circle">Point</Point>
+<Point name="handle_F" n="41" color="2" showname="true" x="2.7829246139872836" y="2.5576748410535872" shape="circle">Point</Point>
+<Circle name="c1" n="4" color="4" through="P2" midpoint="C" acute="true">Circle around C through P2</Circle>
+<Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_A">Line through P1 and P3</Line>
+<Line name="l2" n="14" color="3" hidden="true" from="C" to="handle_B">Line through P1 and P6</Line>
+<Ray name="r1" n="26" color="3" hidden="true" from="C" to="handle_E">Ray from P1 pointing to P9</Ray>
+<Ray name="r2" n="44" color="3" hidden="true" from="C" to="handle_F">Ray from C pointing to handle_F</Ray>
+<Intersection name="A" n="9" color="2" showname="true" first="l1" second="c1" shape="circle" which="first">Intersection between l1 and c1</Intersection>
+<Intersection name="P5" n="10" color="2" first="l1" second="c1" shape="circle" which="second">Intersection between l1 and c1</Intersection>
+<Intersection name="B" n="15" color="2" showname="true" first="l2" second="c1" shape="circle" which="first">Intersection between l2 and c1</Intersection>
+<Intersection name="P8" n="16" color="2" first="l2" second="c1" shape="circle" which="second">Intersection between l2 and c1</Intersection>
+<Intersection name="E" n="27" color="2" showname="true" first="r1" second="c1" shape="circle" which="first">Intersection between r1 and c1</Intersection>
+<Intersection name="P11" n="28" color="2" first="r1" second="c1" shape="circle" which="second">Intersection between r1 and c1</Intersection>
+<Intersection name="F" n="45" color="2" showname="true" first="r2" second="c1" shape="circle" which="first">Intersection between r2 and c1</Intersection>
+<Intersection name="P3" n="46" color="2" first="r2" second="c1" shape="circle" which="second">Intersection between r2 and c1</Intersection>
+<Segment name="s1" n="19" color="1" type="thick" from="C" to="A">Line segment from P1 to P4</Segment>
+<Segment name="s2" n="22" color="1" type="thick" from="C" to="B">Line segment from P1 to P7</Segment>
+<Segment name="s3" n="31" color="5" type="thick" from="E" to="A">Line segment from P10 to P4</Segment>
+<Segment name="s4" n="34" color="5" type="thick" from="E" to="B">Line segment from P10 to P7</Segment>
+<Angle name="a1" n="37" color="1" showvalue="true" xcoffset="0.15149101534064488" ycoffset="-0.33021475427813596" unit="°" first="B" root="E" second="A" display="small" filled="true" acute="true">Angle P7 - P10 - P4</Angle>
+<Angle name="a2" n="40" color="1" showvalue="true" xcoffset="0.007490671292840224" ycoffset="-0.36322885556559487" unit="°" first="B" root="C" second="A" display="small" filled="true" acute="true">Angle P7 - P1 - P4</Angle>
+<Segment name="s5" n="49" color="5" type="thick" from="B" to="F">Line segment from B to F</Segment>
+<Segment name="s6" n="52" color="5" type="thick" from="A" to="F">Line segment from A to F</Segment>
+<Angle name="a3" n="55" color="1" showvalue="true" xcoffset="-0.13674083919290117" ycoffset="-0.3365906335130708" unit="°" first="B" root="F" second="A" display="small" filled="true" acute="true">Angle B - F - A</Angle>
+</Objects>
+</Construction>
+</CaR>
