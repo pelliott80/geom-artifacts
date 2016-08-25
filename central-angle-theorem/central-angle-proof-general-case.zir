@@ -8,8 +8,22 @@
 <Point name="C" n="0" color="2" showname="true" x="-0.5885558583106265" y="-0.014532243415077417" shape="circle">Point</Point>
 <Point name="P1" n="3" color="2" x="2.564940962761126" y="-0.1453224341507724" shape="circle">Point</Point>
 <Point name="handle_D" n="5" color="2" showname="true" x="-0.7920072661217077" y="4.228882833787465" shape="circle">Point</Point>
-<Point name="handle_B" n="17" color="2" showname="true" x="-3.5095367847411447" y="-4.970027247956403" shape="circle">Point</Point>
+<Point name="handle_B" n="17" color="2" showname="true" x="-3.0154405086285196" y="-4.388737511353315" shape="circle">Point</Point>
 <Point name="handle_A" n="18" color="2" showname="true" x="3.088101725703906" y="-3.371480472297911" shape="circle">Point</Point>
+<Text name="Text1" n="41" color="1" type="thick" showname="true" showvalue="true" x="1.9691189827429607" y="3.8365122615803804">The General Case Both Sides.</Text>
+<Text name="Text2" n="42" color="1" type="thick" showname="true" showvalue="true" x="2.9718437783832883" y="3.1825613079019073">We have from the special case on both sides:
+$\[ m\left(\angle ECA\right)=2\, m\left(\angle EDA\right) \]$
+$\[ m\left(\angle BCE\right)=2\, m\left(\angle BDE\right) \]$</Text>
+<Text name="Text3" n="43" color="1" type="thick" showname="true" showvalue="true" x="3.1026339691189833" y="1.8165304268846496">The ray $\overrightarrow{DE}$ splits $\angle BDA$.
+$\angle BDE$ and $\angle EDA$ are adjacent angles.
+$\[ m\left(\angle BDA\right)=m\left(\angle BDE\right)+m\left(\angle EDA\right) \]$
+The ray $\overrightarrow{CE}$ splits $\angle BCA$.
+$\angle BCE$ and $\angle ECA$ are adjacent angles.
+$\[ m\left(\angle BCA\right)=m\left(\angle BCE\right)+m\left(\angle ECA\right) \]$</Text>
+<Text name="Text4" n="44" color="1" type="thick" showname="true" showvalue="true" x="3.160762942779291" y="0.11625794732061756">So
+$\[ m\left(\angle BCA\right)=2\, m\left(\angle BDE\right)+2\, m\left(\angle EDA\right) \]$
+$\[ m\left(\angle BCA\right)=2\,\left(m\left(\angle BDE\right)+m\left(\angle EDA\right)\right) \]$
+$\[ m\left(\angle BCA\right)=2\, m\left(\angle BDA\right) \]$</Text>
 <Circle name="c1" n="4" color="4" through="P1" midpoint="C" acute="true">Circle around C through P1</Circle>
 <Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_D">Line through C and handle_D</Line>
 <Ray name="r1" n="21" color="3" hidden="true" from="C" to="handle_B">Ray from C pointing to handle_B</Ray>
@@ -26,18 +40,6 @@
 <Segment name="s3" n="34" color="1" type="thick" from="C" to="A">Line segment from C to A</Segment>
 <Segment name="s4" n="37" color="5" type="thick" from="D" to="B">Line segment from D to B</Segment>
 <Segment name="s5" n="40" color="5" type="thick" from="D" to="A">Line segment from D to A</Segment>
-<Text name="Text1" n="41" color="1" type="thick" showname="true" showvalue="true" x="1.9691189827429607" y="3.8365122615803804">The General Case Both Sides.</Text>
-<Text name="Text2" n="42" color="1" type="thick" showname="true" showvalue="true" x="2.9718437783832883" y="3.1825613079019073">We have from the special case on both sides:
-$\[ m\left(\angle ECA\right)=2\, m\left(\angle EDA\right) \]$
-$\[ m\left(\angle BCE\right)=2\, m\left(\angle BDE\right) \]$</Text>
-<Text name="Text3" n="43" color="1" type="thick" showname="true" showvalue="true" x="3.1026339691189833" y="1.8165304268846496">The ray $\overrightarrow{DE}$ splits $\angle BDA$.
-$\[ m\left(\angle BDA\right)=m\left(\angle BDE\right)+m\left(\angle EDA\right) \]$
-The ray $\overrightarrow{CE}$ splits $\angle BCA$.
-$\[ m\left(\angle BCA\right)=m\left(\angle BCE\right)+m\left(\angle ECA\right) \]$</Text>
-<Text name="Text4" n="44" color="1" type="thick" showname="true" showvalue="true" x="3.160762942779291" y="0.11625794732061756">So
-$\[ m\left(\angle BCA\right)=2\, m\left(\angle BDE\right)+2\, m\left(\angle EDA\right) \]$
-$\[ m\left(\angle BCA\right)=2\,\left(m\left(\angle BDE\right)+m\left(\angle EDA\right)\right) \]$
-$\[ m\left(\angle BCA\right)=2\, m\left(\angle BDA\right) \]$</Text>
 <Angle name="a1" n="47" color="1" showvalue="true" xcoffset="0.02064793288519014" ycoffset="-0.36271886432811556" unit="°" first="B" root="D" second="A" display="small" filled="true" acute="true">Angle B - D - A</Angle>
 <Angle name="a2" n="50" color="1" showvalue="true" xcoffset="0.025058344171854978" ycoffset="-0.3624408793986601" unit="°" first="B" root="C" second="A" display="small" filled="true" acute="true">Angle B - C - A</Angle>
 </Objects>

@@ -1,31 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CaR>
 <Construction>
-<Window x="0.0" y="0.0" w="8.0"/>
+<Window x="-1.0754740180111213" y="-0.14493321989452834" w="6.880839726622417"/>
 <Windowdim w="1280" h="800"/>
 <Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
 <Objects>
-<Point name="C" n="0" color="2" showname="true" x="-0.5013623978201638" y="0.11625794732061756" shape="circle">Point</Point>
-<Point name="P2" n="3" x="2.6521344232515887" y="0.5667574931880113" shape="circle">Point</Point>
-<Point name="handle_A" n="5" color="2" showname="true" x="1.4750227066303356" y="-4.185286103542235" shape="circle">Point</Point>
-<Point name="handle_B" n="11" color="2" showname="true" x="-2.0999091734786557" y="-3.8365122615803813" shape="circle">Point</Point>
-<Point name="handle_E" n="23" color="2" showname="true" x="-4.061762034514079" y="3.269754768392372" shape="circle">Point</Point>
-<Circle name="c1" n="4" color="4" through="P2" midpoint="C" acute="true">Circle around P1 through P2</Circle>
-<Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_A">Line through P1 and P3</Line>
-<Line name="l2" n="14" color="3" hidden="true" from="C" to="handle_B">Line through P1 and P6</Line>
-<Ray name="r1" n="26" color="3" hidden="true" from="C" to="handle_E">Ray from P1 pointing to P9</Ray>
-<Intersection name="A" n="9" color="2" showname="true" first="l1" second="c1" shape="circle" which="first">Intersection between l1 and c1</Intersection>
-<Intersection name="P5" n="10" color="2" first="l1" second="c1" shape="circle" which="second">Intersection between l1 and c1</Intersection>
-<Intersection name="B" n="15" color="2" showname="true" first="l2" second="c1" shape="circle" which="first">Intersection between l2 and c1</Intersection>
-<Intersection name="P8" n="16" color="2" first="l2" second="c1" shape="circle" which="second">Intersection between l2 and c1</Intersection>
-<Intersection name="E" n="27" color="2" showname="true" first="r1" second="c1" shape="circle" which="first">Intersection between r1 and c1</Intersection>
-<Intersection name="P11" n="28" color="2" first="r1" second="c1" shape="circle" which="second">Intersection between r1 and c1</Intersection>
-<Segment name="s1" n="19" color="1" type="thick" from="C" to="A">Line segment from P1 to P4</Segment>
-<Segment name="s2" n="22" color="1" type="thick" from="C" to="B">Line segment from P1 to P7</Segment>
-<Segment name="s3" n="31" color="5" type="thick" from="E" to="A">Line segment from P10 to P4</Segment>
-<Segment name="s4" n="34" color="5" type="thick" from="E" to="B">Line segment from P10 to P7</Segment>
-<Angle name="a1" n="37" color="1" showvalue="true" xcoffset="0.15149101534064488" ycoffset="-0.33021475427813596" unit="°" first="B" root="E" second="A" display="small" filled="true" acute="true">Angle P7 - P10 - P4</Angle>
-<Angle name="a2" n="40" color="1" showvalue="true" xcoffset="0.007490671292840224" ycoffset="-0.36322885556559487" unit="°" first="B" root="C" second="A" display="small" filled="true" acute="true">Angle P7 - P1 - P4</Angle>
+<Point name="C" n="4" color="2" showname="true" x="-0.5013623978201638" y="0.11625794732061756" shape="circle">Point</Point>
+<Point name="P2" n="7" hidden="true" x="2.6521344232515887" y="0.5667574931880113" shape="circle">Point</Point>
+<Point name="handle_A" n="9" color="2" showname="true" x="1.1556429505667207" y="-2.382299815835333" shape="circle">Point</Point>
+<Point name="handle_B" n="15" color="2" showname="true" x="-1.956671476188924" y="-3.507232741168698" shape="circle">Point</Point>
+<Point name="handle_E" n="27" color="2" showname="true" x="-4.061762034514079" y="3.269754768392372" shape="circle">Point</Point>
+<Line name="yAxis" n="1" yaxis="true">Y axis</Line>
+<Line name="xAxis" n="0" xaxis="true">X axis</Line>
+<Circle name="c1" n="6" color="4" through="P2" midpoint="C" acute="true">Circle around P1 through P2</Circle>
+<Line name="l1" n="10" color="3" hidden="true" from="C" to="handle_A">Line through P1 and P3</Line>
+<Line name="l2" n="16" color="3" hidden="true" from="C" to="handle_B">Line through P1 and P6</Line>
+<Ray name="r1" n="28" color="3" hidden="true" from="C" to="handle_E">Ray from P1 pointing to P9</Ray>
+<Intersection name="A" n="11" color="2" showname="true" first="l1" second="c1" shape="circle" which="first">Intersection between l1 and c1</Intersection>
+<Intersection name="P5" n="12" color="2" hidden="true" first="l1" second="c1" shape="circle" which="second">Intersection between l1 and c1</Intersection>
+<Intersection name="B" n="17" color="2" showname="true" first="l2" second="c1" shape="circle" which="first">Intersection between l2 and c1</Intersection>
+<Intersection name="P8" n="18" color="2" hidden="true" first="l2" second="c1" shape="circle" which="second">Intersection between l2 and c1</Intersection>
+<Intersection name="E" n="29" color="2" showname="true" first="r1" second="c1" shape="circle" which="first">Intersection between r1 and c1</Intersection>
+<Intersection name="P11" n="30" color="2" first="r1" second="c1" shape="circle" which="second">Intersection between r1 and c1</Intersection>
+<Segment name="s1" n="21" color="1" type="thick" from="C" to="A">Line segment from P1 to P4</Segment>
+<Segment name="s2" n="24" color="1" type="thick" from="C" to="B">Line segment from P1 to P7</Segment>
+<Segment name="s3" n="33" color="5" type="thick" from="E" to="A">Line segment from P10 to P4</Segment>
+<Segment name="s4" n="36" color="5" type="thick" from="E" to="B">Line segment from P10 to P7</Segment>
+<Angle name="a1" n="39" color="1" showvalue="true" xcoffset="0.15149101534064488" ycoffset="-0.33021475427813596" unit="°" first="B" root="E" second="A" display="small" filled="true" acute="true">Angle P7 - P10 - P4</Angle>
+<Angle name="a2" n="42" color="1" showvalue="true" xcoffset="0.007490671292840224" ycoffset="-0.36322885556559487" unit="°" first="B" root="C" second="A" display="small" filled="true" acute="true">Angle P7 - P1 - P4</Angle>
+<Circle name="c2" n="45" color="1" hidden="true" through="C" midpoint="A" acute="true">Circle around A through C</Circle>
+<Circle name="c4" n="55" color="1" hidden="true" through="C" midpoint="B" acute="true">Circle around B through C</Circle>
+<Intersection name="P1" n="46" color="2" hidden="true" first="l1" second="c2" shape="circle" which="first">Intersection between l1 and c2</Intersection>
+<Intersection name="P3" n="47" color="2" first="l1" second="c2" shape="circle" which="second">Intersection between l1 and c2</Intersection>
+<Intersection name="P7" n="56" color="2" hidden="true" first="l2" second="c4" shape="circle" which="first">Intersection between l2 and c4</Intersection>
+<Intersection name="P9" n="57" color="2" first="l2" second="c4" shape="circle" which="second">Intersection between l2 and c4</Intersection>
+<Circle name="c3" n="50" color="1" hidden="true" through="A" midpoint="P1" acute="true">Circle around P1 through A</Circle>
+<Circle name="c5" n="60" color="1" hidden="true" through="B" midpoint="P7" acute="true">Circle around P7 through B</Circle>
+<Intersection name="P4" n="51" color="2" hidden="true" first="l1" second="c3" shape="circle" which="first">Intersection between l1 and c3</Intersection>
+<Intersection name="P6" n="52" color="2" first="l1" second="c3" shape="circle" which="second">Intersection between l1 and c3</Intersection>
+<Intersection name="P10" n="61" color="2" hidden="true" first="l2" second="c5" shape="circle" which="first">Intersection between l2 and c5</Intersection>
+<Intersection name="P12" n="62" color="2" first="l2" second="c5" shape="circle" which="second">Intersection between l2 and c5</Intersection>
+<Circle name="c6" n="65" color="1" hidden="true" through="P10" midpoint="B" acute="true">Circle around B through P10</Circle>
+<Circle name="c7" n="68" color="1" hidden="true" through="P4" midpoint="A" acute="true">Circle around A through P4</Circle>
+<Intersection name="P13" n="69" color="2" hidden="true" first="c7" second="c6" shape="circle" which="first">Intersection between c7 and c6</Intersection>
+<Intersection name="P14" n="70" color="2" hidden="true" first="c7" second="c6" shape="circle" which="second">Intersection between c7 and c6</Intersection>
+<Ray name="r2" n="73" color="3" hidden="true" from="C" to="P14">Ray from C pointing to P14</Ray>
+<Intersection name="P15" n="74" color="2" hidden="true" first="yAxis" second="r2" shape="circle">Intersection between yAxis and r2</Intersection>
+<Intersection name="P16" n="75" color="2" hidden="true" first="r2" second="c1" shape="circle" which="first">Intersection between r2 and c1</Intersection>
+<Intersection name="P17" n="76" color="2" first="r2" second="c1" shape="circle" which="second">Intersection between r2 and c1</Intersection>
+<Point name="P18" n="392" type="thick" hidden="super" showname="true" bold="true" large="true" x="if(a(A,B,P16)&lt;180,x(B),x(A))" actx="1.2592375406491965" y="if(a(A,B,P16)&lt;180,y(B),y(A))" acty="-2.5385075598377944" shape="circle" fixed="true">Point à &quot;if(a(C,A,B)&lt;180,x(A),x(C))&quot;, &quot;if(a(C,A,B)&lt;180,y(A),y(C))&quot; </Point>
+<Point name="P19" n="393" type="thick" hidden="super" showname="true" bold="true" large="true" x="if(a(A,B,P16)&lt;180,x(A),x(B))" actx="-1.6885892776650846" y="if(a(A,B,P16)&lt;180,y(A),y(B))" acty="-2.839750235535118" shape="diamond" fixed="true">Point à &quot;if(a(C,A,B)&lt;180,x(C),x(A))&quot;, &quot;if(a(C,A,B)&lt;180,y(C),y(A))&quot; </Point>
+<Point name="P20" n="394" hidden="super" x="(x(P16)^2*y(P18)-x(P16)^2*y(P19)+y(P18)^2*y(P19)-y(P18)^2*y(P16)-y(P18)*y(P19)^2+y(P18)*y(P16)^2-y(P18)*x(P19)^2+y(P19)^2*y(P16)-y(P19)*y(P16)^2+y(P19)*x(P18)^2+y(P16)*x(P19)^2-y(P16)*x(P18)^2)/(2*x(P16)*y(P18)+(-(2*x(P16)))*y(P19)+(-(2*y(P18)))*x(P19)+2*y(P19)*x(P18)+2*y(P16)*x(P19)+(-(2*y(P16)))*x(P18))" actx="-0.5013623978201618" y="(-x(P16)^2*x(P18)+x(P16)^2*x(P19)+x(P16)*x(P18)^2-x(P16)*x(P19)^2+x(P16)*y(P18)^2-x(P16)*y(P19)^2-x(P18)^2*x(P19)+x(P18)*x(P19)^2+x(P18)*y(P19)^2-x(P18)*y(P16)^2-x(P19)*y(P18)^2+x(P19)*y(P16)^2)/(2*x(P16)*y(P18)+(-(2*x(P16)))*y(P19)+2*x(P18)*y(P19)+(-(2*x(P18)))*y(P16)+(-(2*x(P19)))*y(P18)+2*x(P19)*y(P16))" acty="0.11625794732061834" fixed="true">Point à &quot;(x(B)^2*y(P4)-x(B)^2*y(P5)+y(P4)^2*y(P5)-y(P4)^2*y(B)-y(P4)*y(P5)^2+y(P4)*y(B)^2-y(P4)*x(P5)^2+y(P5)^2*y(B)-y(P5)*y(B)^2+y(P5)*x(P4)^2+y(B)*x(P5)^2-y(B)*x(P4)^2)/(2*x(B)*y(P4)+(-(2*x(B)))*y(P5)+(-(2*y(P4)))*x(P5)+2*y(P5)*x(P4)+2*y(B)*x(P5)+(-(2*y(B)))*x(P4))&quot;, &quot;(-x(B)^2*x(P4)+x(B)^2*x(P5)+x(B)*x(P4)^2-x(B)*x(P5)^2+x(B)*y(P4)^2-x(B)*y(P5)^2-x(P4)^2*x(P5)+x(P4)*x(P5)^2+x(P4)*y(P5)^2-x(P4)*y(B)^2-x(P5)*y(P4)^2+x(P5)*y(B)^2)/(2*x(B)*y(P4)+(-(2*x(B)))*y(P5)+2*x(P4)*y(P5)+(-(2*x(P4)))*y(B)+(-(2*x(P5)))*y(P4)+2*x(P5)*y(B))&quot; </Point>
+<Circle name="c8" n="395" color="1" through="P18" midpoint="P20" filled="true" start="P19" end="P18">Circle around P20 through P18</Circle>
 </Objects>
 </Construction>
 </CaR>

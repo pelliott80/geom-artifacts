@@ -7,9 +7,9 @@
 <Objects>
 <Point name="C" n="0" color="2" showname="true" x="-0.6612170753860136" y="0.05812897366030878" shape="circle">Point</Point>
 <Point name="P2" n="3" x="2.492279745685739" y="0.5086285195277025" shape="circle">Point</Point>
-<Point name="handle_A" n="5" color="2" showname="true" x="0.8356039963669399" y="-3.8510445049954587" shape="circle">Point</Point>
+<Point name="handle_A" n="5" color="2" showname="true" x="0.8501362397820156" y="-3.734786557674841" shape="circle">Point</Point>
 <Point name="handle_B" n="11" color="2" showname="true" x="-2.0999091734786557" y="-3.8365122615803813" shape="circle">Point</Point>
-<Point name="handle_E" n="23" color="2" showname="true" x="-5.209809264305177" y="1.6421435059037233" shape="circle">Point</Point>
+<Point name="handle_E" n="23" color="2" showname="true" x="-3.029972752043597" y="2.2089009990917345" shape="circle">Point</Point>
 <Point name="handle_F" n="41" color="2" showname="true" x="2.7829246139872836" y="2.5576748410535872" shape="circle">Point</Point>
 <Circle name="c1" n="4" color="4" through="P2" midpoint="C" acute="true">Circle around C through P2</Circle>
 <Line name="l1" n="8" color="3" hidden="true" from="C" to="handle_A">Line through P1 and P3</Line>
