@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaR>
+<Construction>
+<Window x="-1.743869209809267" y="0.7120799273387819" w="14.079451627031611"/>
+<Windowdim w="1280" h="800"/>
+<Preferences minfontsize="12" minpointsize="3" minlinesize="1" arrowsize="10" digits.lengths="2" digits.edit="4" digits.angles="2" colorbackground="245,245,245" colorbackgroundx="139" colorbackgroundy="9" colorbackgroundPal="4" fig3D="false"/>
+<Objects>
+<Point name="P1" n="0" color="2" x="-0.47229791099000895" y="-0.2761126248864665" shape="circle">Point</Point>
+<Point name="P2" n="6" color="2" hidden="true" x="7.157129881925522" y="-0.20345140781108118" shape="circle">Point</Point>
+<Segment name="s1" n="9" color="1" type="thick" hidden="true" from="P1" to="P2">Line segment from P1 to P2</Segment>
+<Line name="l2" n="12" color="3" hidden="true" from="P1" to="P2">Line through P1 and P2</Line>
+<PointOn name="P3" n="17" color="2" hidden="true" on="l2" alpha="2.107356530265004" x="1.6349630540512532" y="-0.25604347283845463" shape="circle">Point on an Object</PointOn>
+<Circle name="c1" n="18" color="1" hidden="true" through="P3" midpoint="P1" acute="true">Circle around P1 through P3</Circle>
+<Intersection name="P4" n="21" color="2" hidden="true" first="l2" second="c1" awayfrom="P3" shape="circle" which="second">Intersection between l2 and c1</Intersection>
+<Circle name="c2" n="22" color="1" hidden="true" through="P4" midpoint="P3" acute="true">Circle around P3 through P4</Circle>
+<Circle name="c3" n="25" color="1" hidden="true" through="P3" midpoint="P4" acute="true">Circle around P4 through P3</Circle>
+<Intersection name="P5" n="26" color="2" hidden="true" first="c3" second="c2" shape="circle" which="first">Intersection between c3 and c2</Intersection>
+<Intersection name="P6" n="27" color="2" hidden="true" first="c3" second="c2" shape="circle" which="second">Intersection between c3 and c2</Intersection>
+<Line name="l3" n="30" color="3" hidden="true" from="P6" to="P5">Line through P6 and P5</Line>
+<Point name="a_handle" n="31" color="2" showname="true" x="-7.741383118145167" y="4.77862453896099" shape="circle">Point</Point>
+<Plumb name="p1" n="34" color="3" point="a_handle" line="l2" valid="true">Perpendicular line through a_handle to l2</Plumb>
+<PointOn name="b_handle" n="35" color="2" hidden="true" showname="true" on="p1" alpha="-1.5550179269756081" x="-7.726574095198332" y="3.2236771295432707" shape="circle">Point on an Object</PointOn>
+<Intersection name="P9" n="36" color="2" first="l2" second="p1" shape="circle">Intersection between l2 and p1</Intersection>
+<PointOn name="b_handle*" n="37" color="2" showname="true" on="p1" alpha="-1.155240876333005" x="-7.730381323021164" y="3.623436050940659" shape="circle">Point on an Object</PointOn>
+<Line name="l4" n="40" color="3" hidden="true" from="P1" to="b_handle*">Line through P1 and b_handle*</Line>
+<Circle name="c4" n="43" color="1" hidden="true" through="b_handle*" midpoint="P1" acute="true">Circle around P1 through b_handle*</Circle>
+<Circle name="c5" n="46" color="1" hidden="true" through="P1" midpoint="b_handle*" acute="true">Circle around b_handle* through P1</Circle>
+<Intersection name="P7" n="47" color="2" hidden="true" first="c5" second="c4" shape="circle" which="first">Intersection between c5 and c4</Intersection>
+<Intersection name="P8" n="48" color="2" hidden="true" first="c5" second="c4" shape="circle" which="second">Intersection between c5 and c4</Intersection>
+<Line name="l5" n="51" color="3" hidden="true" from="P8" to="b_handle*">Line through P8 and b_handle*</Line>
+<Circle name="c6" n="54" color="1" hidden="true" through="a_handle" midpoint="b_handle*" acute="true">Circle around b_handle* through a_handle</Circle>
+<Intersection name="P10" n="55" color="2" hidden="true" first="l5" second="c6" shape="circle" which="first">Intersection between l5 and c6</Intersection>
+<Intersection name="P11" n="56" color="2" hidden="true" first="l5" second="c6" shape="circle" which="second">Intersection between l5 and c6</Intersection>
+<Circle name="c7" n="59" color="1" hidden="true" through="P10" midpoint="P8" acute="true">Circle around P8 through P10</Circle>
+<Line name="l6" n="62" color="3" hidden="true" from="P8" to="P1">Line through P8 and P1</Line>
+<Intersection name="P12" n="63" color="2" hidden="true" first="l6" second="c7" shape="circle" which="first">Intersection between l6 and c7</Intersection>
+<Intersection name="P13" n="64" color="2" first="l6" second="c7" shape="circle" which="second">Intersection between l6 and c7</Intersection>
+<Circle name="c8" n="67" color="1" hidden="true" through="P12" midpoint="P1" acute="true">Circle around P1 through P12</Circle>
+<Intersection name="P14" n="68" color="2" hidden="true" first="l2" second="c8" shape="circle" which="first">Intersection between l2 and c8</Intersection>
+<Intersection name="P15" n="69" color="2" first="l2" second="c8" shape="circle" which="second">Intersection between l2 and c8</Intersection>
+<Plumb name="p2" n="72" color="3" hidden="true" point="P15" line="l2" valid="true">Perpendicular line through P15 to l2</Plumb>
+<Circle name="c9" n="75" color="1" hidden="true" through="P1" midpoint="P15" acute="true">Circle around P15 through P1</Circle>
+<Intersection name="P16" n="76" color="2" first="p2" second="c9" shape="circle" which="first">Intersection between p2 and c9</Intersection>
+<Intersection name="P17" n="77" color="2" hidden="true" first="p2" second="c9" shape="circle" which="second">Intersection between p2 and c9</Intersection>
+<Plumb name="p3" n="80" color="3" hidden="true" point="P16" line="p2" valid="true">Perpendicular line through P16 to p2</Plumb>
+<Intersection name="P18" n="81" color="2" first="l3" second="p3" shape="circle">Intersection between l3 and p3</Intersection>
+<Circle name="c10" n="84" color="1" hidden="true" through="P1" midpoint="P9" acute="true">Circle around P9 through P1</Circle>
+<Circle name="c11" n="87" color="1" hidden="true" through="P9" midpoint="P1" acute="true">Circle around P1 through P9</Circle>
+<Intersection name="P19" n="88" color="2" hidden="true" first="c11" second="c10" shape="circle" which="first">Intersection between c11 and c10</Intersection>
+<Intersection name="P20" n="89" color="2" hidden="true" first="c11" second="c10" shape="circle" which="second">Intersection between c11 and c10</Intersection>
+<Line name="l7" n="92" color="3" hidden="true" from="P19" to="P9">Line through P19 and P9</Line>
+<Line name="l8" n="95" color="3" hidden="true" from="P19" to="P1">Line through P19 and P1</Line>
+<Circle name="c12" n="98" color="1" hidden="true" through="a_handle" midpoint="P9" acute="true">Circle around P9 through a_handle</Circle>
+<Intersection name="P21" n="99" color="2" hidden="true" first="l7" second="c12" shape="circle" which="first">Intersection between l7 and c12</Intersection>
+<Intersection name="P22" n="100" color="2" hidden="true" first="l7" second="c12" shape="circle" which="second">Intersection between l7 and c12</Intersection>
+<Circle name="c13" n="103" color="1" hidden="true" through="P21" midpoint="P19" acute="true">Circle around P19 through P21</Circle>
+<Intersection name="P23" n="104" color="2" hidden="true" first="l8" second="c13" shape="circle" which="first">Intersection between l8 and c13</Intersection>
+<Intersection name="P24" n="105" color="2" first="l8" second="c13" shape="circle" which="second">Intersection between l8 and c13</Intersection>
+<Circle name="c14" n="108" color="1" hidden="true" through="P23" midpoint="P1" acute="true">Circle around P1 through P23</Circle>
+<Intersection name="P25" n="109" color="2" hidden="true" first="l2" second="c14" shape="circle" which="first">Intersection between l2 and c14</Intersection>
+<Intersection name="P26" n="110" color="2" first="l2" second="c14" shape="circle" which="second">Intersection between l2 and c14</Intersection>
+<Line name="l9" n="113" color="3" hidden="true" from="P9" to="P18">Line through P9 and P18</Line>
+<Circle name="c15" n="116" color="1" hidden="true" through="P9" midpoint="P18" acute="true">Circle around P18 through P9</Circle>
+<Circle name="c16" n="119" color="1" hidden="true" through="P18" midpoint="P9" acute="true">Circle around P9 through P18</Circle>
+<Intersection name="P27" n="120" color="2" hidden="true" first="c15" second="c16" shape="circle" which="first">Intersection between c15 and c16</Intersection>
+<Intersection name="P28" n="121" color="2" hidden="true" first="c15" second="c16" shape="circle" which="second">Intersection between c15 and c16</Intersection>
+<Line name="l10" n="124" color="3" hidden="true" from="P27" to="P9">Line through P27 and P9</Line>
+<Line name="l11" n="127" color="3" hidden="true" from="P27" to="P18">Line through P27 and P18</Line>
+<Point name="P29" n="130" color="2" hidden="true" x="-9.250352502332024" y="2.604685595640941" shape="circle">Point</Point>
+<Circle name="c17" n="131" color="1" hidden="true" through="P29" midpoint="P9" acute="true">Circle around P9 through P29</Circle>
+<Circle name="c18" n="134" color="1" hidden="true" through="a_handle" midpoint="P9" acute="true">Circle around P9 through a_handle</Circle>
+<Intersection name="P30" n="135" color="2" hidden="true" first="l10" second="c18" shape="circle" which="first">Intersection between l10 and c18</Intersection>
+<Intersection name="P31" n="136" color="2" hidden="true" first="l10" second="c18" shape="circle" which="second">Intersection between l10 and c18</Intersection>
+<Circle name="c19" n="139" color="1" hidden="true" through="P30" midpoint="P27" acute="true">Circle around P27 through P30</Circle>
+<Intersection name="P32" n="140" color="2" hidden="true" first="l11" second="c19" shape="circle" which="first">Intersection between l11 and c19</Intersection>
+<Intersection name="P33" n="141" color="2" first="l11" second="c19" shape="circle" which="second">Intersection between l11 and c19</Intersection>
+<Circle name="c20" n="144" color="1" hidden="true" through="P32" midpoint="P18" acute="true">Circle around P18 through P32</Circle>
+<Intersection name="P34" n="145" color="2" first="l3" second="c20" shape="circle" which="first">Intersection between l3 and c20</Intersection>
+<Intersection name="P35" n="146" color="2" hidden="true" first="l3" second="c20" shape="circle" which="second">Intersection between l3 and c20</Intersection>
+<Segment name="s2" n="149" color="1" type="thick" from="P26" to="P34">Line segment from P26 to P34</Segment>
+<Line name="l12" n="152" color="3" hidden="true" from="P9" to="P16">Line through P9 and P16</Line>
+<Circle name="c21" n="155" color="1" hidden="true" through="P9" midpoint="P16" acute="true">Circle around P16 through P9</Circle>
+<Circle name="c22" n="158" color="1" hidden="true" through="P16" midpoint="P9" acute="true">Circle around P9 through P16</Circle>
+<Intersection name="P36" n="159" color="2" hidden="true" first="c21" second="c22" shape="circle" which="first">Intersection between c21 and c22</Intersection>
+<Intersection name="P37" n="160" color="2" hidden="true" first="c21" second="c22" shape="circle" which="second">Intersection between c21 and c22</Intersection>
+<Line name="l13" n="163" color="3" hidden="true" from="P36" to="P9">Line through P36 and P9</Line>
+<Line name="l14" n="166" color="3" hidden="true" from="P36" to="P16">Line through P36 and P16</Line>
+<Circle name="c23" n="169" color="1" hidden="true" through="a_handle" midpoint="P9" acute="true">Circle around P9 through a_handle</Circle>
+<Intersection name="P38" n="170" color="2" hidden="true" first="l13" second="c23" shape="circle" which="first">Intersection between l13 and c23</Intersection>
+<Intersection name="P39" n="171" color="2" hidden="true" first="l13" second="c23" shape="circle" which="second">Intersection between l13 and c23</Intersection>
+<Circle name="c24" n="174" color="1" hidden="true" through="P38" midpoint="P36" acute="true">Circle around P36 through P38</Circle>
+<Intersection name="P40" n="175" color="2" hidden="true" first="l14" second="c24" shape="circle" which="first">Intersection between l14 and c24</Intersection>
+<Intersection name="P41" n="176" color="2" first="l14" second="c24" shape="circle" which="second">Intersection between l14 and c24</Intersection>
+<Circle name="c25" n="179" color="1" hidden="true" through="P40" midpoint="P16" acute="true">Circle around P16 through P40</Circle>
+<Intersection name="P42" n="180" color="2" hidden="true" first="p3" second="c25" shape="circle" which="first">Intersection between p3 and c25</Intersection>
+<Intersection name="P43" n="181" color="2" first="p3" second="c25" shape="circle" which="second">Intersection between p3 and c25</Intersection>
+<Segment name="s3" n="184" color="1" type="thick" from="P43" to="P34">Line segment from P43 to P34</Segment>
+<Circle name="c26" n="187" color="1" hidden="true" through="P9" midpoint="P15" acute="true">Circle around P15 through P9</Circle>
+<Circle name="c27" n="190" color="1" hidden="true" through="P15" midpoint="P9" acute="true">Circle around P9 through P15</Circle>
+<Intersection name="P44" n="191" color="2" hidden="true" first="c26" second="c27" shape="circle" which="first">Intersection between c26 and c27</Intersection>
+<Intersection name="P45" n="192" color="2" hidden="true" first="c26" second="c27" shape="circle" which="second">Intersection between c26 and c27</Intersection>
+<Line name="l15" n="195" color="3" hidden="true" from="P44" to="P45">Line through P44 and P45</Line>
+<Line name="l16" n="198" color="3" hidden="true" from="P15" to="P44">Line through P15 and P44</Line>
+<Line name="l17" n="201" color="3" hidden="true" from="P44" to="P9">Line through P44 and P9</Line>
+<Circle name="c28" n="204" color="1" hidden="true" through="a_handle" midpoint="P9" acute="true">Circle around P9 through a_handle</Circle>
+<Intersection name="P46" n="205" color="2" hidden="true" first="l17" second="c28" shape="circle" which="first">Intersection between l17 and c28</Intersection>
+<Intersection name="P47" n="206" color="2" hidden="true" first="l17" second="c28" shape="circle" which="second">Intersection between l17 and c28</Intersection>
+<Circle name="c29" n="209" color="1" hidden="true" through="P46" midpoint="P44" acute="true">Circle around P44 through P46</Circle>
+<Intersection name="P48" n="210" color="2" first="l16" second="c29" shape="circle" which="first">Intersection between l16 and c29</Intersection>
+<Intersection name="P49" n="211" color="2" hidden="true" first="l16" second="c29" shape="circle" which="second">Intersection between l16 and c29</Intersection>
+<Circle name="c30" n="214" color="1" hidden="true" through="P49" midpoint="P15" acute="true">Circle around P15 through P49</Circle>
+<Intersection name="P50" n="215" color="2" first="p2" second="c30" shape="circle" which="first">Intersection between p2 and c30</Intersection>
+<Intersection name="P51" n="216" color="2" hidden="true" first="p2" second="c30" shape="circle" which="second">Intersection between p2 and c30</Intersection>
+<Segment name="s4" n="219" color="1" type="thick" from="P50" to="P43">Line segment from P50 to P43</Segment>
+<Segment name="s5" n="222" color="1" type="thick" from="P50" to="P26">Line segment from P50 to P26</Segment>
+<Segment name="s6" n="225" color="1" type="thick" from="P1" to="P26">Line segment from P1 to P26</Segment>
+<Segment name="s7" n="228" color="1" type="thick" from="P15" to="P50">Line segment from P15 to P50</Segment>
+<Segment name="s8" n="231" color="1" type="thick" from="P18" to="P34">Line segment from P18 to P34</Segment>
+<Segment name="s9" n="234" color="1" type="thick" from="P16" to="P43">Line segment from P16 to P43</Segment>
+</Objects>
+</Construction>
+</CaR>
